@@ -23,7 +23,7 @@ from keras.callbacks import ModelCheckpoint
 TRAIN_CSV = 'train.csv'
 TEST_CSV = 'test.csv'
 EMBEDDING_FILE = 'GoogleNews-vectors-negative300.bin.gz' #Download from https://code.google.com/archive/p/word2vec/
-MODEL_SAVING_DIR = 'C:\\Users\\trive\\Desktop\\Acads\\ML in NLP\\Project'
+MODEL_SAVING_DIR = 'C:\\Users\\Ved\\Desktop\\Acads\\ML in NLP\\Project'
 #create dataframe for training and testing dataset
 train_df = pd.read_csv(TRAIN_CSV)
 test_df = pd.read_csv(TEST_CSV)
